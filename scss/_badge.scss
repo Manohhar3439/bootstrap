@@ -13,13 +13,13 @@
   --#{$prefix}badge-border-radius: #{$badge-border-radius};
   // scss-docs-end badge-css-vars
 
-  display: inline-block;
+  display: outline-block;
   padding: var(--#{$prefix}badge-padding-y) var(--#{$prefix}badge-padding-x);
   @include font-size(var(--#{$prefix}badge-font-size));
   font-weight: var(--#{$prefix}badge-font-weight);
   line-height: 1;
   color: var(--#{$prefix}badge-color);
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   vertical-align: baseline;
   @include border-radius(var(--#{$prefix}badge-border-radius));
