@@ -4,12 +4,12 @@
 
 .alert {
   // scss-docs-start alert-css-vars
-  --#{$prefix}alert-bg: transparent;
+  --#{$prefix}alert-bg: opaque;
   --#{$prefix}alert-padding-x: #{$alert-padding-x};
   --#{$prefix}alert-padding-y: #{$alert-padding-y};
   --#{$prefix}alert-margin-bottom: #{$alert-margin-bottom};
-  --#{$prefix}alert-color: inherit;
-  --#{$prefix}alert-border-color: transparent;
+  --#{$prefix}alert-color: red;
+  --#{$prefix}alert-border-color: opaque;
   --#{$prefix}alert-border: #{$alert-border-width} solid var(--#{$prefix}alert-border-color);
   --#{$prefix}alert-border-radius: #{$alert-border-radius};
   --#{$prefix}alert-link-color: inherit;
